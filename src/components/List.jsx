@@ -11,6 +11,7 @@ class List extends Component{
       list: []
     }
   }
+  
   componentDidMount(){
     axios.get('https://onboardme-beta.celcom.com.my/api/bucket-lists')
     .then(res => {

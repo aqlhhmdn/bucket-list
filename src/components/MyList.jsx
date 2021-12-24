@@ -9,7 +9,7 @@ class MyList extends Component{
     this.state = {
       list: []
     }
-    
+     
   }
   componentDidMount(){
     axios.get('https://onboardme-beta.celcom.com.my/api/bucket-lists/aqilaaahamdan@gmail.com')
