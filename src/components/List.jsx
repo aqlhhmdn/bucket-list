@@ -12,7 +12,7 @@ class List extends Component{
     }
   }
   componentDidMount(){
-    axios.get('http://onboardme-beta.celcom.com.my/api/bucket-lists')
+    axios.get('https://onboardme-beta.celcom.com.my/api/bucket-lists')
     .then(res => {
       this.setState({
         list: res.data

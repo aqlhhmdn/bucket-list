@@ -12,7 +12,7 @@ class MyList extends Component{
     
   }
   componentDidMount(){
-    axios.get('http://onboardme-beta.celcom.com.my/api/bucket-lists/aqilaaahamdan@gmail.com')
+    axios.get('https://onboardme-beta.celcom.com.my/api/bucket-lists/aqilaaahamdan@gmail.com')
     .then(res => {
       this.setState({
         list: res.data
